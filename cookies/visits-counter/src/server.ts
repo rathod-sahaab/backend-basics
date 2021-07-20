@@ -1,10 +1,14 @@
 import * as express from "express";
 import * as cookieParser from "cookie-parser";
+import * as cors from "cors";
 import createCounterSvg from "./create-counter-svg";
 
 async function main() {
   const app = express();
+
   app.use(cookieParser());
+  app.use(cors());
+
   app.use(express.static("public"));
 
   const COOKIE_NAME = "visited";
