@@ -29,7 +29,7 @@
      inkscape:guide-bbox="true"
      inkscape:snap-object-midpoints="true"
      inkscape:zoom="1.1263116"
-     inkscape:cx="3.995342"
+     inkscape:cx="4.4392688"
      inkscape:cy="228.17842"
      inkscape:window-width="1920"
      inkscape:window-height="1044"
@@ -44,6 +44,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-59.18456,-49.499536)">
+    <circle
+       style="fill:#ffffff;stroke:none;stroke-width:3.175;paint-order:stroke markers fill;stop-color:#000000"
+       id="path2167"
+       cx="85.589348"
+       cy="75.904327"
+       r="21.626244" />
     <path
        style="fill:none;stroke:#00cc00;stroke-width:3.175;paint-order:stroke markers fill;stop-color:#000000;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 63.21706,75.904325 c 0,-12.394248 9.978041,-22.372289 22.37229,-22.372289"

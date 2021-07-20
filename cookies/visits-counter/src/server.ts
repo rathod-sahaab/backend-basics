@@ -9,12 +9,12 @@ async function main() {
 
   const COOKIE_NAME = "visited";
 
-  let count = 0; // store it in a file/DB for persistence
   app.get("/", (_, res) => {
     // serve index.html
     res.sendFile("index.html");
   });
 
+  let count = 0; // store it in a file/DB for persistence
   app.get("/svg", (req, res) => {
     const visited = req.cookies[COOKIE_NAME];
     if (!visited) {
